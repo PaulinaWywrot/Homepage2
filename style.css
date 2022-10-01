@@ -1,0 +1,186 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+
+html,
+body {
+  margin: 10;
+  height: 100%;
+  background-color: #e2fdff;
+  text-align: center;
+}
+header {
+  background-image: url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  height: 700px;
+  background-size: cover;
+  Margin-bottom: 20px;
+}
+
+.me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    background: #eaf4f4;
+    font-family: "Garamond";
+    color: #022B3A;
+    padding: 2px 6px;
+    border-radius: 5px;
+    margin: 100px 0 10px 0;
+}
+.c-site-header {
+  background: #eaf4f4;
+  font-family: "Garamond";
+  color: #022B3A;
+  padding: 2px 6px;
+  border-radius: 5px;
+  margin: 5px 0 10px 0;
+}
+p {
+   font-size: 20px;
+   color: #073344b4;
+   font-family: "Garamond";
+   font-weight: bold;
+}
+#next{
+  border-radius: 10px;
+  border: 3px solid rgb(2, 122, 112);
+  width: 100px;
+  height: 30px;
+}
+#previous{
+  border-radius: 10px;
+  border: 3px solid rgb(2, 122, 112);
+  width: 100px;
+  height: 30px;
+}
+#button{
+  border-radius: 10px;
+  border: 3px solid rgb(2, 122, 112);
+  width: 150px;
+  height: 30px;
+}
+#send{
+  border-radius: 10px;
+  border: 3px solid rgb(2, 122, 112);
+  width: 100px;
+  height: 30px;
+}
+#send:hover {
+  width: 105px;
+  height: 34px;
+}
+#next:hover {
+  width: 105px;
+  height: 34px;
+}
+#previous:hover {
+  width: 105px;
+  height: 34px;
+}
+#button:hover {
+  width: 155px;
+  height: 35px;
+}
+
+#navbar {
+
+  color: green;
+  margin: auto;
+  width: 80%;
+  border: 3px solid rgb(2, 122, 112);
+  padding: 5px;
+  background-color: rgb(202, 240, 231);
+  border-radius: 10px;
+  }
+ 
+  ul#list li {
+		display: inline;
+
+  
+  }
+
+ul {list-style-type: none;}
+
+a:link {
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+label {
+  font-family: "Garamond";
+  font-weight: bold;
+  font-size: 20px;
+}
+/* visited link */
+a:visited {
+  color: rgb(132, 195, 132);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(248, 255, 253);
+}
+#img {
+  border-radius: 50px;
+  width: 500px;
+  height: 500px;
+}
+/* selected link */
+a:active {
+  color: rgb(45, 204, 175);
+}
+
+.bord {
+  border-radius: 50px;
+}
+#opening {
+  color: #073344b4;
+  margin-top: 100px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+#images {
+  color: #073344b4;
+  margin-top: 100px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+#comment {
+  background-color: rgb(202, 240, 231);
+  color: #062f3fb4;
+  border: 3px solid rgb(2, 122, 112);
+  border-radius: 10px;
+}
+#name {
+  background-color:rgb(202, 240, 231);
+  color: #062f3fb4;
+  border: 3px solid rgb(2, 122, 112);
+  border-radius: 5px;
+  height: 30px;
+}
+
+#review {
+  color: #073344b4;
+}
+
+
+.c-site-footer {
+  border-top: 2px solid rgb(2, 122, 112);
+}
+
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
