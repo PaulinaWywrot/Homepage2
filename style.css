@@ -134,7 +134,10 @@ a:hover {
 a:active {
   color: rgb(45, 204, 175);
 }
-
+/* visited link */
+a:visited {
+  color: rgb(132, 195, 132);
+}
 .bord {
   border-radius: 50px;
 }
