@@ -120,10 +120,6 @@ label {
   font-weight: bold;
   font-size: 20px;
 }
-/* visited link */
-a:visited {
-  color: rgb(132, 195, 132);
-}
 
 /* mouse over link */
 a:hover {
