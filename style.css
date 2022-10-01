@@ -62,7 +62,7 @@ header {
 ul {list-style-type: none;}
 
 a:link {
-  color: green;
+  color: rgb(2, 122, 112);
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
@@ -76,7 +76,7 @@ label {
 }
 /* visited link */
 a:visited {
-  color: green;
+  color: rgb(2, 122, 112);
 }
 
 /* mouse over link */
