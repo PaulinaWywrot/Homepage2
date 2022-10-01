@@ -122,7 +122,7 @@ label {
 }
 /* visited link */
 a:visited {
-  color: rgb(132, 195, 132);
+  color: color: green;
 }
 
 /* mouse over link */
